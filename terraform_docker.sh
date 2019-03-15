@@ -1,6 +1,5 @@
 #!/bin/bash
-echo " installing git"
-sudo apt-get install git-core -y
+
 echo " installing terraform"
 sudo curl -O https://releases.hashicorp.com/terraform/0.11.5/terraform_0.11.5_linux_amd64.zip
 sudo apt-get install unzip -y
